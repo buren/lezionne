@@ -1,6 +1,6 @@
 module TestLez
   def assert_eq(result, expected)
-    expected == result or fail "** [TEST RESULT] Expected #{expected}, got #{result} ** \n\n"
+    expected == result or fail "** [TEST RESULT] Expected '#{expected}', got '#{result}' ** \n\n"
   end
 
   def self.run(tests)
